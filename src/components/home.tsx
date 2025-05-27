@@ -1,19 +1,10 @@
 import { Link } from "react-router-dom";
+import { algorithms } from "../data/algorithms";
 
 export interface IAlgorithm {
   name: string;
   path: string;
 }
-export const algorithms = [
-  { name: "Quick Sort", path: "/quick-sort" },
-  { name: "Binary Search", path: "/binary-search" },
-  { name: "Bubble Sort", path: "/bubble-sort" },
-  { name: "Insertion Sort", path: "/insertion-sort" },
-  { name: "Selection Sort", path: "/selection-sort" },
-  { name: "Heap Sort", path: "/heap-sort" },
-  { name: "Radix Sort", path: "/radix-sort" },
-  { name: "Counting Sort", path: "/counting-sort" },
-];
 export default function Home() {
   // list of content algorithms
 
