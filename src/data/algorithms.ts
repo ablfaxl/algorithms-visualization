@@ -3,7 +3,7 @@ export const algorithms = [
   { name: "Binary Search", path: "/binary-search" },
   { name: "Graph", path: "/graph" },
   { name: "dijkstra", path: "/dijkstra" },
-  { name: "Selection Sort", path: "/selection-sort" },
+  { name: "knapsack", path: "/knapsack" },
   { name: "Heap Sort", path: "/heap-sort" },
   { name: "Radix Sort", path: "/radix-sort" },
   { name: "Counting Sort", path: "/counting-sort" },
