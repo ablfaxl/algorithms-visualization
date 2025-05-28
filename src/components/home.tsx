@@ -6,8 +6,6 @@ export interface IAlgorithm {
   path: string;
 }
 export default function Home() {
-  // list of content algorithms
-
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
       <h1 className="text-4xl font-bold mb-8">Algorithm Visualizer</h1>
